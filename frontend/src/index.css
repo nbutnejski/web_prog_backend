@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color: purple;
+  width: 100%;
+  height: 100px;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerDiv{
+  margin-top: 2px;
+
+}
+.todo-list{
+  width: 400px;
+}
+.todo-item{
+  width: 100%;
+  border-style: inset;
+  border-top: none;
+  border-left: none;
+  border-color: rebeccapurple;
+
+}
+.contact-card{
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  border-style: dashed;
+  width: 300px;
+  justify-content: center;
+  align-content: center;
+  background-color: #61dafb;
+}
+.toDoCard{
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  border-style: dashed;
+  width: 250px;
+  justify-content: center;
+  align-content: center;
+  background-color: rebeccapurple;
+}
